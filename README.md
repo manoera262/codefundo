@@ -2,7 +2,7 @@
 
  Prediction of Flood:
 
- The project is basically a mechanism to predict probability of occurence of flood using  machine learning principles  implemented using a   GUI which would be expecting a concerned user to input data such as  air temperature, barometric pressure,  wind speed ,humidity,soil   absorption capacity and then it will be  predicting the amount of rainfall  which  will ultimately  predict the probability of occurence   of flood.
+ The project is basically a mechanism to predict probability of occurrence of flood using  machine learning principles  implemented using a   GUI which would be expecting a concerned user to input data such as  air temperature, barometric pressure,  wind speed ,humidity,soil   absorption capacity and then it will be  predicting the amount of rainfall  which  will ultimately  predict the probability of occurrence   of flood.
 
  How it works:
 
