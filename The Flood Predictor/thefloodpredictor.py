@@ -21,7 +21,7 @@ import statsmodels.api as sm
 
 
 
-#dictionary used for numbering states alphabetically
+#Dictionary used for numbering states alphabetically
 states={'andhrapradesh': 1,
  'arunachalpradesh': 2,
  'assam': 3,
@@ -58,7 +58,7 @@ regr.fit(X, Y)
 print('Intercept of the graph: \n\n', regr.intercept_)
 print('Coefficients : \n\n', regr.coef_)
 
- # adding a constant FOR BETTER RESULT WITH STATESMODELS
+# Adding a constant FOR BETTER RESULT WITH STATESMODELS
 
 X = sm.add_constant(X)
  
@@ -86,7 +86,7 @@ canvas1.pack()
 #label_Coefficients = tk.Label(root, text=Coefficients_result, justify = 'center')
 #canvas1.create_window(270, 285, window=label_Coefficients)
 
-# with statsmodels
+#With statsmodels
 print_model = model.summary()
 label_model = tk.Label(root, text=print_model, justify = 'center', relief = 'solid', bg='Blue',fg="yellow")
 canvas1.create_window(900, 250, window=label_model)
@@ -114,7 +114,7 @@ canvas1.create_window(270, 120, window=entry2)
 
 
 
-# inputting new humidity
+#inputting new humidity
 label3 = tk.Label(root, text='RELATIVE HUMIDITY (In %): ',justify='left',bg="blue",fg="yellow",font=('times', 10, 'bold'))
 canvas1.create_window(100, 140, window=label3)
 
